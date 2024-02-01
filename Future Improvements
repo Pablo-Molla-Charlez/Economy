@@ -2,8 +2,11 @@ Utilizar distintos momentums para poder comparar resultados
 (yo creo que no habrá mucha diferencia, quizás algún mes cambia alguno de los ETFs,
 pero creo que frecuentemente será bastante similar); 
 añadir además como posible absolute momentum que el precio > SMA 10 meses, y como relative momentum precio/SMA 10 meses.
+--- DONE ---
 
-Añadir otros activos como inversión: QQQ, SOXX, etc. y que tú puedas elegir cuales y en que % incluir en el sistema; por ej, sustituir el 25% de SPY por 12.5% SPY y 12.5% QQQ
+
+Añadir otros activos como inversión: QQQ, SOXX, etc. y que tú puedas elegir cuales y en que % incluir en el sistema; 
+por ej, sustituir el 25% de SPY por 12.5% SPY y 12.5% QQQ
 
 “Crear” tus propios activos, por ejemplo, SPYx3, que resulta de multiplicar por 3 la variación diaria del SPY.
 
