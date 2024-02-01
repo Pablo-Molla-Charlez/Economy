@@ -1,0 +1,21 @@
+Añadir opción de utilizar otros canarios para determinar si estás en modo ataque o defensa, para comparar resultados: DAA utiliza VWO y BND, BAA utiliza SPY, EFA, EEM y AGG.
+
+Utilizar distintos momentums para poder comparar resultados (yo creo que no habrá mucha diferencia, quizás algún mes cambia alguno de los ETFs, pero creo que frecuentemente será bastante similar); añadir además como posible absolute momentum que el precio > SMA 10 meses, y como relative momentum precio/SMA 10 meses.
+
+Añadir otros activos como inversión: QQQ, SOXX, etc. y que tú puedas elegir cuales y en que % incluir en el sistema; por ej, sustituir el 25% de SPY por 12.5% SPY y 12.5% QQQ
+
+“Crear” tus propios activos, por ejemplo, SPYx3, que resulta de multiplicar por 3 la variación diaria del SPY.
+
+Llevar la cuenta de la evolución del patrimonio y que en función de la propuesta de activos cada mes, te calcule que tienes exactamente que vender/comprar, por ej: “Hold all positions until the final trading day of the following month. Rebalance the entire portfolio monthly, regardless of whether there is a change in position:
+Suppose your investing capital is $100K. At the end of November the model indicates: SPY 25% + VEA 25% + VNQ 25% + VWO 25%, so you buy:
+SPY: $25K, VEA: $25K, VNQ: $25K, VWO: $25K
+Suppose at the end of December the value of your holdings is: SPY: $30K, VEA: $25K, VNQ: $20K, VWO: $45K
+The model indicates no change, so SPY 25% + VEA 25% + VNQ 25% + VWO 25%
+Rebalancing your (now) $120K portfolio to 25% equal weights again:
+SPY: $30K ~ 25%: hold position
+VEA: $25K < 25%: buy $5K VEA to reach 25%
+VNQ: $20K < 25%: buy $10K VNQ to reach 25%
+VWO: $45K > 25%: sell $15K VWO to reach 25%
+Portfolio after rebalancing: SPY: $30K, VEA: $30K, VNQ: $30K, VWO: $30K
+
+Zanjado
