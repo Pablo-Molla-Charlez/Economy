@@ -1,8 +1,8 @@
-# ETF Trading Strategies
+# Trading Strategies
 
-Welcome to my repository of ETF Trading Strategies implemented in Python! 
+Welcome to my repository of Trading Strategies implemented in Python! 
 
-Here, you will find a collection of algorithms and models I've developed to analyze and trade ETFs, with a focus on creating robust strategies for the ever-volatile market.
+Here, you will find a collection of algorithms and models I've implemented to analyze and trade ETFs, with a focus on creating robust strategies for the ever-volatile market.
 
 ## About Me
 
